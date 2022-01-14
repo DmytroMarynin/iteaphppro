@@ -1,9 +1,9 @@
 <?php
 
-include "logwriter.php"
+include_once "logwriter.php";
 
 echo "New file from second lesson";
 
-if (function_exist('writeLog')) {
+if (function_exists('writeLog')) {
 	writeLog("history.log");
 }
