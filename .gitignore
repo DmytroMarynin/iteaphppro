@@ -8,3 +8,5 @@ test/
 info.php
 # accept adding PNG images from folder test
 !test/**/*.png
+# close system folders(phpshtorm) 
+.idea/
