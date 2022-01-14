@@ -1,0 +1,10 @@
+# do not add a log files to git
+*.log
+# don't add future our files in test folder
+test/
+# add only index.html in such directory
+!test/index.html
+# don't add our future file info for git
+info.php
+# accept adding PNG images from folder test
+!test/**/*.png
